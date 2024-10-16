@@ -1,12 +1,13 @@
 package Nivell3.Ex1.modules;
 
-public class Generica <T> {
+public class Generica {
 
-    public static void realizarLlamada(Telefono telefono) {
+    /// con extends limitas el tipo
+    public static <T extends Telefono> void realizarLlamada(T telefono) {
         telefono.llamar();
     }
 
-    public static void hacerFoto(Smartphone smartphone) {
+    public static <T extends Smartphone> void hacerFoto(T smartphone) {
         smartphone.fotografiar();
     }
 

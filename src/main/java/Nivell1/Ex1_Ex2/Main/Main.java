@@ -8,6 +8,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        ////// añadir objeto ex1
+
         GenericMethods<Object> metodo1 = new GenericMethods<>();
 
 

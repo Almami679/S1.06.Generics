@@ -20,6 +20,14 @@ public class GenericMethods <T>{
                         " elementos de la clase (" + lista.getClass() + ")");
     }
 
+    /// sugerimiento de Raquel
+    public static <T> void printLista(T... items) {// genera una lista de cosas random a nombre items
+        for(T item : items){
+            System.out.println(item);
+        }
+    }
+
+
 
 
 }

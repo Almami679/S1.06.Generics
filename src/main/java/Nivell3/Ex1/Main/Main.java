@@ -19,9 +19,9 @@ public class Main {
     // El mètode limitat per la interfície Telefon, de la classe Generica,
     // pot cridar al mètode ferFotos()?
 
-    //       NO, si estuviera implementado como abstracto si, pero eso no tendría sentido
+    //       NO, si estuviera implementado como abstracto sí, pero eso no tendría sentido
     //       ya que no todos los teléfonos tienen la posibilidad de hacer fotos, deberíamos
-    //       crear otra clase llamada, por ejemplo, Phone, donde este solo podria
+    //       crear otra clase llamada, por ejemplo, Phone, donde éste solo podria
     //       llamar sin poder hacer fotos.
 
 }
